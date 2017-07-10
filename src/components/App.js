@@ -1,12 +1,11 @@
 import React from 'react'
-import { View, Text } from 'react-native'
 
-import SignIn from './SignIn'
+import Navigation from './Navigation'
 
 export default class App extends React.Component {
   render() {
     return (
-      <SignIn />
+      <Navigation />
     )
   }
 }
